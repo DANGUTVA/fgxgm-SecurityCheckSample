@@ -1,4 +1,4 @@
-FROM node:20.13.1-bookworm-slim
+FROM node:20.18.0-bookworm-slim
 
 RUN apt-get update && apt-get upgrade -y
 RUN npm install -g npm@9.1.3
